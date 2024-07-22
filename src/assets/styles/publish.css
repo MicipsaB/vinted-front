@@ -1,0 +1,209 @@
+/* PUBLISH ************************************************************************************************ */
+.publish-main {
+  background-color: #ebedee;
+}
+.publish-container {
+  width: 1280px;
+  margin: 0 auto;
+}
+.publish-main h2 {
+  font-size: 24px;
+  font-family: "Maison Neue";
+  padding-top: 40px;
+}
+.file-select {
+  background-color: white;
+  padding: 24px;
+  margin: 20px 0;
+  box-shadow: 0 0 2px gray;
+}
+.file-select > p {
+  margin: 0 0 10px 0;
+}
+.dashed-preview-without {
+  border: 1px #ebedee dashed;
+  border-radius: 3px;
+  height: 200px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.input-design-default {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border: 1px solid #0ab1ba;
+  border-radius: 4px;
+  height: 45px;
+  width: 200px;
+}
+.input-design-image {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border: 1px solid #0ab1ba;
+  border-radius: 4px;
+  height: 45px;
+  width: 45px;
+}
+.dashed-preview-image {
+  border: 1px #ebedee dashed;
+  border-radius: 3px;
+  height: 200px;
+  display: flex;
+  align-items: center;
+}
+.dashed-preview-image img {
+  height: 90%;
+  margin: 0 10px;
+}
+.remove-img-button {
+  position: relative;
+  color: black;
+  background-color: white;
+  right: 60px;
+  bottom: 70px;
+  height: 25px;
+  line-height: 25px;
+  width: 30px;
+  border-radius: 4px;
+  text-align: center;
+  font-weight: 700;
+  cursor: pointer;
+}
+.label-file {
+  cursor: pointer;
+  color: #0ab1ba;
+  font-weight: bold;
+}
+.label-file > span {
+  margin: 0 10px;
+  vertical-align: middle;
+}
+.label-file:hover {
+  color: #25a5c4;
+}
+
+.input-file {
+  display: none;
+}
+.input-sign {
+  font-size: 40px;
+}
+.text-input-section {
+  background-color: white;
+  margin: 20px 0;
+  box-shadow: 0 0 2px gray;
+}
+.text-input-section > .text-input:not(:last-child) {
+  height: 25px;
+  border-bottom: 1px solid #ebedee;
+  vertical-align: center;
+}
+.text-input-section label {
+  color: #666666;
+}
+.text-input {
+  display: flex;
+  justify-content: space-between;
+  padding: 24px;
+}
+.text-input > h4 {
+  font-weight: normal;
+  margin: 0;
+  vertical-align: baseline;
+}
+.text-input > input {
+  width: 50%;
+  border: none;
+  border-bottom: 1px solid #ebedee;
+  color: black;
+  font-family: "Maison Neue";
+  font-size: 16px;
+}
+.checkbox-section {
+  width: 50%;
+}
+.checkbox-section > input {
+  border: none;
+  border-bottom: 1px solid #ebedee;
+  color: black;
+  font-family: "Maison Neue";
+  font-size: 16px;
+  margin-bottom: 40px;
+}
+.text-input > input:focus {
+  border-bottom: 1px solid #0ab1ba;
+}
+.checkbox-section > input:focus {
+  border-bottom: 1px solid #0ab1ba;
+}
+.text-input > input::placeholder {
+  font-family: "Maison Neue";
+  font-size: 16px;
+  color: #c4c7c9;
+}
+.checkbox-section > input::placeholder {
+  font-family: "Maison Neue";
+  font-size: 16px;
+  color: #c4c7c9;
+}
+.text-input > textarea {
+  width: 50%;
+  resize: none;
+  border: none;
+  border-bottom: 1px solid #ebedee;
+  outline: none;
+  color: black;
+  font-family: "Maison Neue";
+  font-size: 16px;
+}
+.text-input > textarea:focus {
+  border-bottom: 1px solid #0ab1ba;
+  background-color: white;
+}
+.text-input > textarea::placeholder {
+  font-family: "Maison Neue";
+  font-size: 16px;
+  color: #c4c7c9;
+}
+
+.checkbox-input > input {
+  display: none;
+}
+.checkbox-design {
+  border-radius: 3px;
+  padding: 2px 11px 2px 11px;
+  margin: 0 15px 0 0;
+  border: 1px solid black;
+}
+.checkbox-design-checked {
+  border-radius: 3px;
+  padding: 3px 6px 3px 6px;
+  margin: 0 15px 0 0;
+  background-color: #0ab1ba;
+}
+.form-button-div {
+  display: flex;
+  justify-content: flex-end;
+}
+.form-validation {
+  background-color: #0ab1ba;
+  color: white;
+  border: none;
+  font: inherit;
+  outline: inherit;
+  border-radius: 4px;
+  padding: 12px 12px;
+  margin: 50px 0;
+}
+.save-offer {
+  background-color: transparent;
+  color: #0ab1ba;
+  border: 1px solid #0ab1ba;
+  font: inherit;
+  outline: inherit;
+  border-radius: 4px;
+  padding: 12px 12px;
+  margin: 50px 15px 50px 0;
+}

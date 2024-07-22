@@ -1,0 +1,144 @@
+.payment-card {
+  background: #ffffff;
+}
+
+.payment-card > .title {
+  display: block;
+  font-size: 14px;
+  line-height: 18px;
+  color: #999;
+  padding: 24px 24px 8px;
+}
+
+.payment-card .content {
+  padding: 24px;
+}
+
+.payment-card ul {
+  margin: 0;
+  padding: 0;
+  list-style-type: none;
+}
+
+.payment-card li {
+  font-size: 16px;
+  line-height: 22px;
+  color: #666;
+  padding: 4px 0;
+  display: grid;
+  grid: auto / 1fr auto;
+  align-items: center;
+}
+
+.payment-card li.bold {
+  color: #111;
+  font-weight: bold;
+}
+
+.payment-card .divider {
+  display: block;
+  width: 100%;
+  height: 1px;
+  background: rgba(17, 17, 17, 0.1);
+}
+
+.payment-wrapper {
+  background: #ebedee;
+  min-height: calc(100vh - 59px);
+}
+
+.payment-container {
+  width: 600px;
+  margin: 0 auto;
+  padding: 36px 20px;
+}
+
+.payment-card {
+  background: #ffffff;
+}
+
+.payment-card > .title {
+  display: block;
+  font-size: 14px;
+  line-height: 18px;
+  color: #999;
+  padding: 24px 24px 8px;
+}
+
+.payment-card .content {
+  padding: 24px;
+  text-align: justify;
+}
+
+.payment-card .divider {
+  display: block;
+  width: 100%;
+  height: 1px;
+  background: rgba(17, 17, 17, 0.1);
+  margin: 24px 0;
+}
+
+.payment-card .content .bold {
+  font-weight: bold;
+}
+
+.payment-card label {
+  color: #6b7c93;
+  font-weight: 300;
+  letter-spacing: 0.025em;
+}
+
+.payment-card button {
+  margin-top: 8px;
+  display: block;
+  width: 100%;
+  font-size: 16px;
+  line-height: 22px;
+  height: 44px;
+  padding: 0 14px;
+  color: #fff;
+  border: 1px solid;
+  border-radius: 4px;
+}
+
+.payment-card button {
+  background: #00c06d;
+  border-color: #00c06d;
+}
+
+.payment-card button:hover {
+  background: #00bb6a;
+  border-color: #00bb6a;
+}
+
+.payment-card button:active {
+  background: #01b165;
+  border-color: #01b165;
+}
+
+.payment-card input,
+.StripeElement {
+  display: block;
+  margin: 10px 0 20px 0;
+  padding: 10px 14px;
+  font-size: 1em;
+  font-family: "Source Code Pro", monospace;
+  box-shadow: rgba(50, 50, 93, 0.14902) 0px 1px 3px,
+    rgba(0, 0, 0, 0.0196078) 0px 1px 0px;
+  border: 0;
+  outline: 0;
+  border-radius: 4px;
+  background: white;
+}
+
+.payment-card input::placeholder {
+  color: #aab7c4;
+}
+
+.payment-card input:focus,
+.StripeElement--focus {
+  box-shadow: rgba(50, 50, 93, 0.109804) 0px 4px 6px,
+    rgba(0, 0, 0, 0.0784314) 0px 1px 3px;
+  -webkit-transition: all 150ms ease;
+  transition: all 150ms ease;
+}

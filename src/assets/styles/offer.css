@@ -1,0 +1,121 @@
+/* OFFER ************************************* */
+.offer-body {
+  min-height: calc(100vh - 60px);
+  background-color: #ebedee;
+  /* height: calc(100vh - 59px); */
+}
+
+.offer-container {
+  width: 1280px;
+  margin: 0px auto;
+  display: flex;
+  justify-content: space-around;
+  padding: 30px;
+  gap: 30px;
+}
+
+.offer-picture {
+  height: 600px;
+  object-fit: cover;
+}
+
+.offer-infos {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  background-color: white;
+  width: 320px;
+  padding: 40px;
+}
+
+.offer-price {
+  font-size: 24px;
+  line-height: 32px;
+  color: #111;
+}
+
+.offer-list {
+  list-style-type: none;
+  padding: 0;
+}
+
+.offer-list li {
+  display: flex;
+  padding: 2px 0;
+}
+
+.offer-list span {
+  flex: 1;
+  font-size: 14px;
+  text-transform: uppercase;
+}
+
+.offer-list span:nth-child(odd) {
+  color: #999;
+}
+
+.offer-list span:nth-child(even) {
+  color: #666;
+  font-weight: bold;
+}
+
+.offer-infos .divider {
+  display: block;
+  width: 100%;
+  height: 1px;
+  background: rgba(17, 17, 17, 0.1);
+}
+
+.offer-content .name {
+  font-weight: bold;
+}
+
+.offer-content .description {
+  color: #666;
+}
+
+.offer-infos button {
+  color: #fff;
+  background: #09b1ba;
+  border: solid 1px #09b1ba;
+  border-radius: 4px;
+  width: 100%;
+  font-size: 16px;
+  height: 36px;
+  padding: 0 16px;
+  line-height: 36px;
+  margin-top: 32px;
+}
+
+.offer-infos button:hover {
+  background: #09adb6;
+}
+
+.offer-infos button:active {
+  background: #09a3ac;
+}
+
+.carousel .thumbs-wrapper {
+  margin: 0 !important;
+}
+
+.carousel .thumbs {
+  padding: 0 !important;
+}
+
+.carousel .thumb img {
+  height: auto;
+}
+
+.offer-avatar-username {
+  display: flex;
+  align-items: center;
+}
+
+.offer-avatar-username > img {
+  height: 50px;
+  width: 50px;
+  object-fit: cover;
+  border-radius: 50%;
+  margin-right: 10px;
+}
